@@ -89,5 +89,5 @@ view(final_statewise_gsdp)
 ##step5
 #save final_statewise_gsdp in csv
 final_statewise_gsdp %>% 
-  write.csv("final_statewise_gsdp")
+  write_csv("final_statewise_gsdp.csv")
   
